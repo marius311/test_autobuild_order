@@ -1,0 +1,3 @@
+FROM test_autobuild_order:latest
+
+RUN echo "dep2" > /dep2

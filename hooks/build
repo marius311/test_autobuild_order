@@ -1,3 +1,6 @@
 #!/bin/bash
 
+env
 docker build -t marius311/test_autobuild_order:latest .
+docker images
+docker build -t $IMAGE_NAME -f $DOCKERFILE .
